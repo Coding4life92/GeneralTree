@@ -25,7 +25,7 @@ void levelOrderTraversal(Node* root)
         return;
     }
 
-    // Stand level order traversal code using queue
+    // Standard level order traversal code using queue
     queue<Node *> q; // Create a queue
     q.push(root); // Enqueue root
     while (!q.empty())
